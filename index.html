@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Furniro</title>
+    <link rel="icon" type="image/x-icon" href="./assets//Meubel House_Logos-05.svg">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="flex flex-col justify-center">
+      <nav class="flex align-center">
+        <!-- Branding Section -->
+        <div class="navLogo align-center flex">
+          <img src="./assets/Meubel House_Logos-05.svg" alt="logo" />
+          <h1>Furniro</h1>
+        </div>
+
+        <!-- Navigation Section -->
+        <div class="navNavigation flex">
+          <ul class="flex">
+            <a href="/"><li class="pointer">Home</li></a>
+            <a href="/shop"><li class="pointer">Shop</li></a>
+            <a href="/about"><li class="pointer">About</li></a>
+            <a href="/contact"><li class="pointer">Contact</li></a>
+          </ul>
+        </div>
+
+        <!-- Icons Section (Hidden on smaller screens) -->
+        <div class="navIcons flex">
+          <img src="./assets/profile.svg" alt="profile" class="pointer" />
+          <img src="./assets/search.svg" alt="search" class="pointer" />
+          <img src="./assets/heart.svg" class="pointer" alt="heart" />
+          <img src="./assets/cart.svg" alt="cart" class="pointer" />
+        </div>
+
+        <!-- Hamburger Menu (Right Side) -->
+        <div class="menu-toggle pointer">
+          <img src="./assets/icons/menu.svg" alt="menu" />
+        </div>
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <main class="flex align-center">
+      <!-- hero section -->
+      <section class="heroSection flex justify-center align-center">
+        <div class="heroCard flex flex-col pointer">
+          <p>New Arrival</p>
+          <h1>Discover our New Collection</h1>
+          <p id="heroDesc">Shop for furniture, lighting and home accessories</p>
+          <button
+            type="button"
+            class="heroBtn justify-center align-center pointer"
+          >
+            Buy Now
+          </button>
+        </div>
+      </section>
+
+      <!-- Browse section -->
+      <section class="browseSection">
+        <div class="browseHeader">
+          <h1>Browse The Range</h1>
+          <p>Explore our wide range of furniture and home accessories</p>
+        </div>
+
+        <div class="browseCardContainer flex justify-center">
+          <div class="browseCard flex flex-col justify-center pointer">
+            <img src="./assets/products/image 106.png" alt="product1" />
+            <p>Dinning</p>
+          </div>
+
+          <div class="browseCard flex flex-col justify-center pointer">
+            <img src="./assets/products/image 100.png" alt="product2" />
+            <p>Living</p>
+          </div>
+
+          <div class="browseCard flex flex-col justify-center pointer">
+            <img src="./assets/products/image 101.png" alt="product1" />
+            <p>Bedroom</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Product section -->
+      <section class="ourProductSection">
+        <div class="ourProductSectionHeader">
+          <h1>Our Products</h1>
+        </div>
+
+        <div class="ourProductSectionCardContainer">
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 1.png" alt="product1" />
+              <div class="details">
+                <h1>Syltherine</h1>
+                <p>Stylish cafe chair</p>
+                <h1>Rp 2.500.000 <span class="price">Rp 3.500.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 2.png" alt="product1" />
+              <div class="details">
+                <h1>Leviosa</h1>
+                <p>Stylish cafe chair</p>
+                <h1>Rp 2.500.000 <span class="price">Rp 3.600.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 3.png" alt="product1" />
+              <div class="details">
+                <h1>Lolito</h1>
+                <p>Luxury Big Sofa</p>
+                <h1>Rp 7.000.000 <span class="price">Rp 14.000.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 4.png" alt="product1" />
+              <div class="details">
+                <h1>Respira</h1>
+                <p>Outdoor bar table and stool</p>
+                <h1>Rp 500.000</h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 5.png" alt="product1" />
+              <div class="details">
+                <h1>Grifo</h1>
+                <p>Night Lamp</p>
+                <h1>Rp 2.500.000 <span class="price">Rp 3.500.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 6.png" alt="product1" />
+              <div class="details">
+                <h1>Muggo</h1>
+                <p>Small Mug</p>
+                <h1>Rp 150.000</h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 7.png" alt="product1" />
+              <div class="details">
+                <h1>Pingky</h1>
+                <p>Cute bed set</p>
+                <h1>Rp 7.000.000 <span class="price">Rp 14.500.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ourProductCard flex flex-col pointer">
+            <div class="productDetails flex flex-col">
+              <img src="./assets/products/image 8.png" alt="product1" />
+              <div class="details">
+                <h1>Monic</h1>
+                <p>Sofa Set</p>
+                <h1>Rp 4.000.000 <span class="price">Rp 7.000.000</span></h1>
+              </div>
+            </div>
+
+            <div class="productBuy flex flex-col justify-center align-center">
+              <button type="button" class="addToCart pointer">
+                Add to cart
+              </button>
+              <div class="productIconsContainer flex">
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/gridicons_share.svg" alt="share" />
+                  <p>Share</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img
+                    src="./assets//icons/compare-svgrepo-com 1.svg"
+                    alt="share"
+                  />
+                  <p>Compare</p>
+                </div>
+
+                <div class="hoverIcon flex pointer">
+                  <img src="./assets//icons/Heart.svg" alt="share" />
+                  <p>Like</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <button type="button" class="showMore pointer">Show More</button>
+        </div>
+      </section>
+
+      <section class="room-inspiration">
+        <div class="content">
+          <h2>50+ Beautiful rooms inspiration</h2>
+          <p>
+            Our designer already made a lot of beautiful prototypes of rooms
+            that inspire you.
+          </p>
+          <a href="#" class="btn">Explore More</a>
+        </div>
+
+        <div class="slider-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/products/image 9.png" alt="Room 1" />
+                <div class="slide-info">
+                  <span>01 — Bed Room</span>
+                  <h3>Inner Peace</h3>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="./assets/products/image10.png" alt="Room 2" />
+                <div class="slide-info">
+                  <span>02 — Bed Room</span>
+                  <h3>Fresh Air</h3>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="./assets/products/image 6.png" alt="Room 3" />
+                <div class="slide-info">
+                  <span>03 — Bed Room</span>
+                  <h3>Comfy Peace</h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial section -->
+      <section class="testimonials">
+        <div class="testimonialSectionHeader">
+          <h1>TESTIMONIALS</h1>
+          <p>What Our Clients Say</p>
+        </div>
+
+        <div class="testimonials-grid pointer">
+          <div class="testimonial-card">
+            <div class="quote"><i class="fas fa-quote-left"></i></div>
+            <p>
+              "Best experience ever! Found my dream house within weeks. Highly
+              recommended!"
+            </p>
+            <div class="client-info">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+                alt="Client"
+              />
+              <div>
+                <h4>John Smith</h4>
+                <span>Happy Buyer</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="quote"><i class="fas fa-quote-left"></i></div>
+            <p>
+              "Professional service and amazing properties. Worth every penny!"
+            </p>
+            <div class="client-info">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
+                alt="Client"
+              />
+              <div>
+                <h4>Emma Davis</h4>
+                <span>Market Analyst</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Get In Touch With Us</h2>
+            <p>
+              For More Information About Our Product & Services, Please Feel
+              Free To Drop Us An Email.
+            </p>
+
+            <div class="info-box flex align-center">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>236 5th SE Avenue, New York NY10000, United States</p>
+              </div>
+            </div>
+
+            <div class="info-box flex align-center">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>Mobile: +(84) 546-6789</p>
+                <p>Hotline: +(84) 456-6789</p>
+              </div>
+            </div>
+
+            <div class="info-box flex align-center">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Working Time</h4>
+                <p>Monday-Friday: 9:00 - 22:00</p>
+                <p>Saturday-Sunday: 9:00 - 21:00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form>
+              <label for="name">Your name</label>
+              <input type="text" id="name" placeholder="Enter your name" />
+
+              <label for="email">Email address</label>
+              <input type="email" id="email" placeholder="Enter your email" />
+
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="This is optional" />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Hi! I’d like to ask about..."
+              ></textarea>
+
+              <button type="submit" class="pointer">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2688796570255!2d-79.3871189!3d43.6426411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb2b5935bf09%3A0x8a175b0fa5854281!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1647893321951!5m2!1sen!2sca"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <div class="footerContainer flex">
+        <!-- Footer Logo and address -->
+        <div class="footerAddress flex flex-col">
+          <h2>Furniro.</h2>
+          <div class="address">
+            <p>400 University Drive Suite 200 Coral</p>
+            <p>Gables,</p>
+            <p>FL 33134 USA</p>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footerLinks flex flex-col">
+          <h2>Links</h2>
+          <ul class="flex flex-col">
+            <a href="/"><li class="pointer">Home</li></a>
+            <a href="/shop"><li class="pointer">Shop</li></a>
+            <a href="/about"><li class="pointer">About</li></a>
+            <a href="/contact"><li class="pointer">Contact</li></a>
+          </ul>
+        </div>
+
+        <!-- Help section -->
+        <div class="footerHelp flex flex-col">
+          <h2>Help</h2>
+          <ul class="flex flex-col">
+            <a href="/payment"><li class="pointer">Payment Options</li></a>
+            <a href="/return"><li class="pointer">Returns</li></a>
+            <a href="/privacy"><li class="pointer">Privacy Policies</li></a>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footerNewsletter flex flex-col">
+          <h2>Newsletter</h2>
+          <form action="" class="flex">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit" class="pointer">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footerCopyright">
+        <div class="seperator"></div>
+        <p>© 2023 Furniro. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
