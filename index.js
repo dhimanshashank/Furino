@@ -4,6 +4,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   menuToggle.addEventListener("click", function () {
     navMenu.classList.toggle("active");
+    document.body.classList.toggle("no-scroll");
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener("click", function(event) {
+    if (!event.target.closest('.navNavigation') && 
+        !event.target.closest('.menu-toggle')) {
+      navMenu.classList.remove("active");
+      document.body.classList.remove("no-scroll");
+    }
   });
 });
 
